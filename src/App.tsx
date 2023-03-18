@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <main className="App">
+      <h1>React movie app</h1>
+    </main>
   );
 }
 
