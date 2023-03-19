@@ -1,5 +1,6 @@
 import { ReactEventHandler, useState } from "react";
 import DarkMode from "../dark-mode/dark-mode";
+import Search from "../search/search";
 
 const Navbar = ({handleSidebarOpen} : {handleSidebarOpen: ReactEventHandler}) => {
 
@@ -17,12 +18,7 @@ const Navbar = ({handleSidebarOpen} : {handleSidebarOpen: ReactEventHandler}) =>
             </div>
 
             <div>
-                <input 
-                    type="search" 
-                    name="search" 
-                    id="search" 
-                    placeholder="Cerca.."
-                />
+                <Search />
             </div>
 
             <div>
