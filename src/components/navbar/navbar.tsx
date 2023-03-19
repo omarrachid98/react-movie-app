@@ -1,4 +1,5 @@
 import { ReactEventHandler, useState } from "react";
+import DarkMode from "../dark-mode/dark-mode";
 
 const Navbar = ({handleSidebarOpen} : {handleSidebarOpen: ReactEventHandler}) => {
 
@@ -23,6 +24,11 @@ const Navbar = ({handleSidebarOpen} : {handleSidebarOpen: ReactEventHandler}) =>
                     placeholder="Cerca.."
                 />
             </div>
+
+            <div>
+                <DarkMode />
+            </div>
+
         </header>
     )
 }
