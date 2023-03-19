@@ -14,7 +14,7 @@ const Navbar = ({handleSidebarOpen} : {handleSidebarOpen: ReactEventHandler}) =>
                 >
                 <i className="bx bx-menu"></i>
                 </button>
-                <div>React Movie App</div>
+                <div className="uppercase">React Movie App</div>
             </div>
 
             <div>
